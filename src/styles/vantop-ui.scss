@@ -1,0 +1,26 @@
+.page-container {
+    .vantop-empty--wrapper .vantop-empty__title p {
+        font-size: inherit;
+        color: inherit;
+        line-height: inherit;
+    }
+    .anchors-item {
+        border: 1px solid #000;
+        margin-top: 20px;
+        height: 200px;
+    }
+    // .select-search-input--container .select-search-input--wrapper .select-input--inner:not(.is-disabled) .el-select {
+    //     height: 28px;
+    // }
+    // .select-search-input--container .select-search-input--wrapper .append--wrapper {
+    //     height: 32px;
+    // }
+    .sticky-header-expamle {
+        height: 300px;
+        overflow-y: scroll;
+        border: 1px solid #746b6b;
+    }
+    .page-list-template-example{
+        height: 516px;
+    }
+}
