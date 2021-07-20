@@ -105,6 +105,6 @@ yarn.lock
 node_modules/
 lib/
 package-lock.json
-/dist
+# /dist
 const/version.json
 releases/*
