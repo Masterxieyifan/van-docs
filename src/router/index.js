@@ -1,3 +1,10 @@
+/*
+ * @Author: yong.xie
+ * @Date: 2021-07-20 17:52:30
+ * @LastEditors: yong.xie
+ * @LastEditTime: 2021-07-20 18:43:17
+ * @FilePath: /van-docs/src/router/index.js
+ */
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import globalConfig from './global';
@@ -33,7 +40,7 @@ const scrollBehavior = (to, from, savedPosition) => {
 const routes = arrPave(routesConfig);
 
 const router = new VueRouter({
-    mode: 'history',
+    mode: 'hash',
     base: process.env.BASE_URL,
     scrollBehavior,
     routes: routes,
